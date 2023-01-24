@@ -13,6 +13,8 @@ import com.mapstruct.lombok.learnings.model.AModel;
 import com.mapstruct.lombok.learnings.model.BModel;
 
 /**
+ * componentModel = "spring" : Used for injecting this mapper to other classes
+ * 
  * When you mapping lists you should make a map for both the class element and
  * the list to map all the elements of the list)
  */

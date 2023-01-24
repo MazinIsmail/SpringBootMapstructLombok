@@ -1,18 +1,22 @@
 package com.mapstruct.lombok.learnings.model;
 
-import lombok.Data;
-
 import java.util.List;
+
+import com.mapstruct.lombok.learnings.dto.DepartmentDTO;
+
+import lombok.Data;
 
 @Data
 public class StudentModel {
 
-    private Long id;
+	private Long id;
 
-    private String name;
+	private String name;
 
-    private List<LectureModel> lectures;
+	private List<LectureModel> lectures;
 
-    private List<LecturerModel> lecturers;
+	private List<LecturerModel> lecturers;
+
+	private DepartmentDTO department;
 
 }
