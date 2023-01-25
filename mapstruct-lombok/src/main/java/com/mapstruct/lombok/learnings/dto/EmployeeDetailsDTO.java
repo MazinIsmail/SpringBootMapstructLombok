@@ -8,4 +8,5 @@ public class EmployeeDetailsDTO {
 	private String departmentSection;
 	private String lecturerId;
 	private String lecturerName;
+	private float totalCost;
 }
